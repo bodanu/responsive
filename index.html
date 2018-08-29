@@ -7,6 +7,8 @@
     <title>exercisee2</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="Style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="toggle.js"></script>
 </head>
 <body>
     <!-- wrapper starts -->
@@ -14,13 +16,13 @@
         <div class="topSection">
             <ul>
                 <li><a id="mybtn" href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a id="togglebtn" href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Tools</a></li>
             </ul>
         </div>
         <!-- aici e wrapul pentru main content -->
-        <div class="boxWrapper">
+        <div id="boxwrap" class="boxWrapper">
         <div class="topBox1">
                 <i class="fas fa-address-book fa-4x"></i>
                 <h3>Gaseste-ne</h3>
@@ -77,6 +79,7 @@
                            tempor et sapien. Vestibulum vel odio nunc. </p>
                      </div>
     </div>
+    
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
