@@ -192,6 +192,7 @@ body {
 @media(max-width: 600px) {
     .topSection ul {
         grid-template-columns: 1fr;
+        grid-gap: 10px;
     }
     .boxWrapper {
         grid-template-columns: 1fr;
@@ -228,6 +229,12 @@ body {
     .cutie2 {
         grid-row: 2;
         grid-column: 1;
+    }
+    .topSection {
+        padding: 10px;
+    }
+    .wrap2{
+        grid-gap: 10px;
     }
 
 }
