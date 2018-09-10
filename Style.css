@@ -11,6 +11,9 @@ body {
     background: url(https://images.pexels.com/photos/1020317/pexels-photo-1020317.jpeg?cs=srgb&dl=abstract-art-background-1020317.jpg&fm=jpg);
     line-height: 1.4;
 }
+::-webkit-scrollbar {
+    width: 0;
+}
 .topSection ul {
     display: grid;
     text-decoration: none;
